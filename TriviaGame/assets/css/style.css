@@ -1,0 +1,68 @@
+h1 {
+  font-size: 28px;
+  text-align: center;
+}
+ul {
+  list-style: none;
+}
+li {
+  font-size: 18px;
+}
+input[type=radio] {
+  border: 0px;
+  width: 20px;
+  height: 16px;
+}
+.quizContainer {
+  position: relative;
+  background-color: white;
+  border-radius: 6px;
+  width: 75%;
+  margin: auto;
+  padding-top: 5px;
+}
+
+.nextButton {
+  position: relative;
+  float:right;
+  right:20%;
+  height: 38px;
+  text-align: center;
+  background-color: lightgrey;
+  color: black;
+  margin: auto;
+  font-size:25px;
+  font-weight:bold;
+  padding-top: 5px;
+}
+
+.question {
+  font-size: 25px;
+  font-weight:bold;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  text-align: center;
+}
+
+.choiceList {
+  font-family: 'Arial', serif;
+  color: rgb(29, 44, 110);
+  font-size:16px;
+  font-weight:bold;
+}
+.result {
+  width: 40%;
+  height: auto;
+  border-radius: 6px;
+  background-color: linen;
+  margin: auto;
+  color:green;
+  text-align: center;
+  font-size:25px;
+  font-family:'Verdana', serif;
+  font-weight:bold;
+  position:absolute;
+  top:120%;
+  left:20%;
+}
